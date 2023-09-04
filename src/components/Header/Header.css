@@ -1,0 +1,71 @@
+header {
+    height: 100vh;
+    padding-top: 3rem;
+    overflow: hidden;
+}
+
+.header__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+.CTA {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.header__socials {
+    display: flex;
+    flex-direction: row;
+    gap: 0.8rem;
+    position: absolute;
+    bottom: 3rem;
+
+}
+
+.scroll__down {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+
+.header__image {
+    position: absolute;
+    margin-top: 87px;
+    top: 2rem;
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    z-index: -1;
+    display: flex;
+    overflow: hidden;
+    padding: 5rem 5rem 1.5rem 5rem;
+}
+
+
+
+@media screen and (max-width:1024px) {
+    header {
+        height: 64vh;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    header {
+        height: 100vh;
+    }
+
+    .header__socials,
+    .scroll__down {
+        display: none;
+    }
+
+}
