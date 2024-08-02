@@ -1,5 +1,5 @@
 import React from 'react'
-import cv from '../../assets/Bupe_Chindongo_CV.pdf'
+import cv from '../../assets/Bupe Chindongo.pdf'
 
 function CTA() {
     return (

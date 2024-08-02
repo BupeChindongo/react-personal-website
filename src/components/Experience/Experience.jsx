@@ -20,11 +20,11 @@ const Experience = () => {
                         <article className="experience__details">
 
                             <h4>CSS</h4>
-                            <small className='text-light'>Intermediate</small>
+                            <small className='text-light'>Experienced</small>
                         </article>
                         <article className="experience__details">
 
-                            <h4>Javascript</h4>
+                            <h4>Typescript</h4>
                             <small className='text-light'>Experienced</small>
                         </article>
                         <article className="experience__details">
@@ -70,7 +70,7 @@ const Experience = () => {
                         <article className="experience__details">
 
                             <h4>Python</h4>
-                            <small className='text-light'>Intermediate</small>
+                            <small className='text-light'>Experienced</small>
                         </article>
                         {/* <article className="experience__details">
 
