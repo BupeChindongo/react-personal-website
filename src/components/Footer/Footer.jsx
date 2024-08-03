@@ -7,7 +7,7 @@ function Footer() {
             <h3>Bupe Chindongo Portfolio Website</h3>
 
             <ul className='permaLinks'>
-                <li><a href='#'>Home</a></li>
+                {/* <li><a href='#'>Home</a></li> */}
                 <li><a href='#about'>About</a></li>
                 <li><a href='#experience'>Experience</a></li>
                 <li><a href='#portfolio'>Portfolio</a></li>
